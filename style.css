@@ -36,6 +36,11 @@ body {
   grid-gap: 10px;
 }
 
+#home .info,
+#home .image-box {
+  border-radius: 5px;
+}
+
 #home .info {
   background-color: rgba(255, 255, 255, 0.7);
   padding: 25px;
@@ -74,7 +79,7 @@ body {
 }
 
 #home .info p {
-  margin-top: 60px;
+  margin: 40px 0;
   font-family: 'Source Code Pro', monospace;
   font-size: 18px;
 }
@@ -146,4 +151,10 @@ body {
   background-color: #2174fc;
   color: #d7d3e2;
   border-radius: 6px !important;
+}
+
+.shadow {
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 3px 3px 5px 6px #ccc; /* Firefox 3.5 - 3.6 */
+  box-shadow: 3px 3px 5px 6px #252426; /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
