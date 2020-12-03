@@ -6,7 +6,7 @@
 }
 a {
   text-decoration: none;
-  color: #000;
+  color: #131314;
   font-family: 'Source Code Pro', monospace;
 }
 
@@ -24,6 +24,7 @@ body {
   background-size: cover;
   height: 100vh;
 }
+
 .container {
   width: 1200px;
   margin: 100px auto;

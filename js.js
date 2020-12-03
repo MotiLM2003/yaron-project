@@ -1,3 +1,4 @@
+// month in year
 const monthNames = [
   'January',
   'February',
@@ -30,9 +31,8 @@ const getDate = () => {
 
 // submit form
 const submitForm = () => {
-  alert('Sending form...');
-  // back to home page
+  alert('Sending form... :');
+  // back to home page.
   window.location = '/';
-
   return false;
 };
