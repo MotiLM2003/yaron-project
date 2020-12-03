@@ -11,7 +11,7 @@ a {
 }
 
 ul {
-  list-style-type: none;
+  list-style-type: disc;
 }
 html {
   font-family: 'Indie Flower', cursive;
@@ -67,8 +67,8 @@ body {
 
 #home .info ul {
   font-family: 'Source Code Pro', monospace;
-  margin-top: 5px;
-  margin-left: 5px;
+  margin-top: 9px;
+  margin-left: 26px;
   font-size: 18px;
 }
 
