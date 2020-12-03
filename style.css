@@ -129,6 +129,7 @@ body {
 /* MISC */
 .btn {
   font-size: 18px;
+  background-color: #eaeef5;
   margin-top: 80px;
   display: inline-block;
   padding: 10px;
