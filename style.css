@@ -137,7 +137,7 @@ body {
   border-radius: 5px;
   outline: none;
   border: 1px solid #d7d3e2;
-  transition: 1s;
+  transition: 0.3s;
   width: 200px;
   cursor: pointer;
 }
@@ -145,4 +145,5 @@ body {
 .btn:hover {
   background-color: #2174fc;
   color: #d7d3e2;
+  border-radius: 5px !important;
 }
