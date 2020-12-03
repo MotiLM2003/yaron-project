@@ -23,7 +23,7 @@ const getDate = () => {
   const date = new Date();
   const el = document.getElementById('date-text');
   if (el != undefined)
-    el.innerHTML = `${monthNames[date.getMonth()]}, ${ydate.getFullYear()} `;
+    el.innerHTML = `${monthNames[date.getMonth()]}, ${date.getFullYear()} `;
 };
 
 // submit form
