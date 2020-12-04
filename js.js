@@ -1,4 +1,4 @@
-// month in year
+// number of months in a year
 const monthNames = [
   'January',
   'February',
@@ -19,7 +19,7 @@ window.addEventListener('DOMContentLoaded', () => {
   getDate();
 });
 
-// getting current date as string
+// getting the current date as a string
 const getDate = () => {
   // new date object
   const date = new Date();
@@ -32,7 +32,7 @@ const getDate = () => {
 // submit form
 const submitForm = () => {
   alert('Sending form... :');
-  // back to home page.
+  // back to the home page.
   window.location = '/';
   return false;
 };
