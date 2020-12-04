@@ -27,7 +27,10 @@ body {
 
 .container {
   width: 1200px;
-  margin: 100px auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 /* HOME */
 #home .grid-container {
@@ -94,7 +97,10 @@ body {
 /* CONTACT ME */
 .form-container {
   width: 600px;
-  margin: 100px auto;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
 }
 
 #contact-me .form-content {
