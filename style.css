@@ -44,15 +44,18 @@ body {
 #home .info {
   background-color: rgba(255, 255, 255, 0.7);
   padding: 25px;
+  padding-top: 130px;
 }
 
 #home .image-box {
   background-color: #fff;
   padding: 20px;
 }
+
 #home .image-box img {
   width: 550px;
-  height: 550px;
+  height: 700px;
+  object-fit: cover;
 }
 #home .date-box {
   padding-top: 20px;
