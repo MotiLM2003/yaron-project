@@ -25,7 +25,7 @@ const getDate = () => {
   const date = new Date();
   const el = document.getElementById('date-text');
   // if in home page
-  if (el != undefined)
+  if (el !== undefined)
     el.innerHTML = `${monthNames[date.getMonth()]}, ${date.getFullYear()} `;
 };
 
