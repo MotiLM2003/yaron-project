@@ -95,6 +95,22 @@ body {
   text-align: center;
 }
 
+#home .footer {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 5px;
+  grid-column: 1 /3;
+  border-radius: 5px;
+}
+
+#home .footer img {
+  width: 50px;
+  transition: 0.5s;
+}
+
+#home .footer img:hover {
+  transform: scale(1.1);
+}
+
 /* CONTACT ME */
 .form-container {
   width: 600px;
