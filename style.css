@@ -13,6 +13,7 @@ a {
 ul {
   list-style-type: disc;
 }
+
 html {
   font-family: 'Indie Flower', cursive;
 }
@@ -26,7 +27,7 @@ body {
 }
 
 .container {
-  width: 1200px;
+  width: 960px;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -38,6 +39,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
+  margin-top: 120px;
 }
 
 #home .info,
@@ -57,10 +59,12 @@ body {
 }
 
 #home .image-box img {
-  width: 550px;
-  height: 700px;
+  width: 450px;
+  height: 620px;
   object-fit: cover;
+  object-position: 100% 0%;
 }
+
 #home .date-box {
   padding-top: 20px;
   height: 60px;
@@ -144,9 +148,11 @@ body {
 
 #contact-me label {
   display: inline-block;
+
   margin-bottom: 5px;
   margin-top: 10px;
 }
+
 #contact-me input {
   border: 1px solid #ccc;
   padding: 10px;

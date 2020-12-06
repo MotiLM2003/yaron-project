@@ -34,6 +34,7 @@ const getDate = () => {
 const submitForm = () => {
   alert('Sending form... :');
   // back to the home page.
+
   window.location = '/';
   return false;
 };
