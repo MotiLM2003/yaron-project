@@ -62,7 +62,7 @@ body {
   width: 450px;
   height: 620px;
   object-fit: cover;
-  object-position: 100% 0%;
+  object-position: 0%;
 }
 
 #home .date-box {
